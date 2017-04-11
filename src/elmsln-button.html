@@ -10,15 +10,15 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
 <link rel="import" href="../bower_components/polymer/polymer.html">
 
-<dom-module id="shop-button">
+<dom-module id="elmsln-button">
   <template>
     <style>
 
-      shop-button {
+      elmsln-button {
         display: inline-block;
       }
 
-      shop-button > * {
+      elmsln-button > * {
         display: inline-block;
         box-sizing: border-box;
         border: 2px solid #000;
@@ -36,25 +36,25 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         -webkit-appearance: none;
       }
 
-      shop-button > *:focus {
+      elmsln-button > *:focus {
         background-color: #c5cad3;
       }
 
-      shop-button > *:active {
+      elmsln-button > *:active {
         background-color: #000;
         color: #FFF;
       }
 
       @media (max-width: 767px) {
 
-        /* Responsive buttons are used in shop-detail, shop-cart and shop-checkout */
-        shop-button[responsive] {
+        /* Responsive buttons are used in elmsln-detail, elmsln-cart and elmsln-checkout */
+        elmsln-button[responsive] {
           @apply(--layout-fixed-bottom);
           height: 64px;
           z-index: 1;
         }
 
-        shop-button[responsive] > * {
+        elmsln-button[responsive] > * {
           background-color: var(--app-accent-color);
           border: none;
           color: white;
@@ -64,7 +64,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
           font-size: 15px;
         }
 
-        shop-button[responsive] > *:focus {
+        elmsln-button[responsive] > *:focus {
           background-color: var(--app-accent-color);
         }
 

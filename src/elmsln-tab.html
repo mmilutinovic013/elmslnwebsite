@@ -10,9 +10,9 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
 <link rel="import" href="../bower_components/polymer/polymer.html">
 <link rel="import" href="../bower_components/iron-flex-layout/iron-flex-layout.html">
-<link rel="import" href="shop-ripple-container.html">
+<link rel="import" href="elmsln-ripple-container.html">
 
-<dom-module id="shop-tab">
+<dom-module id="elmsln-tab">
   <template strip-whitespace>
     <style>
       [hidden] {
@@ -32,21 +32,21 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         right: 0;
         bottom: 0;
         left: 0;
-        @apply(--shop-tab-overlay);
+        @apply(--elmsln-tab-overlay);
       }
 
-      :host(.shop-tabs-overlay-static-above) #overlay {
+      :host(.elmsln-tabs-overlay-static-above) #overlay {
         display: block;
       }
     </style>
     <div id="overlay"></div>
-    <shop-ripple-container>
+    <elmsln-ripple-container>
       <content></content>
-    </shop-ripple-container>
+    </elmsln-ripple-container>
   </template>
   <script>
     Polymer({
-      is: 'shop-tab'
+      is: 'elmsln-tab'
     });
   </script>
 </dom-module>

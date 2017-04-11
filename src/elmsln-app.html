@@ -18,11 +18,11 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 <link rel="import" href="../bower_components/iron-media-query/iron-media-query.html">
 <link rel="import" href="../bower_components/iron-pages/iron-pages.html">
 <link rel="import" href="../bower_components/iron-selector/iron-selector.html">
-<link rel="import" href="shop-category-data.html">
+<link rel="import" href="elmsln-category-data.html">
 <!-- Since 'home' is the default route, eagerly load it. -->
-<link rel="import" href="shop-home.html">
+<link rel="import" href="elmsln-home.html">
 
-<dom-module id="shop-app">
+<dom-module id="elmsln-app">
 
   <template>
 
@@ -106,21 +106,21 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         height: 66px;
       }
 
-      shop-tabs, shop-tab {
-        --shop-tab-overlay: {
+      elmsln-tabs, elmsln-tab {
+        --elmsln-tab-overlay: {
           border-bottom: 2px solid var(--app-accent-color);
         };
       }
 
-      shop-tabs {
+      elmsln-tabs {
         height: 100%;
       }
 
-      shop-tab {
+      elmsln-tab {
         margin: 0 10px;
       }
 
-      shop-tab a {
+      elmsln-tab a {
         display: inline-block;
         outline: none;
         padding: 9px 5px;
@@ -163,7 +163,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         font-weight: bold;
       }
 
-      shop-cart-modal {
+      elmsln-cart-modal {
         z-index: 2;
       }
 
@@ -222,7 +222,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
     </style>
 
-    <shop-analytics key="UA-39334307-16"></shop-analytics>
+    <elmsln-analytics key="UA-39334307-16"></elmsln-analytics>
     <!--
       app-location and app-route elements provide the state of the URL for the app.
     -->
@@ -236,19 +236,19 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     <iron-media-query query="max-width: 767px" query-matches="{{smallScreen}}"></iron-media-query>
 
     <!--
-      shop-category-data provides the list of categories.
+      elmsln-category-data provides the list of categories.
     -->
-    <shop-category-data categories="{{categories}}"></shop-category-data>
+    <elmsln-category-data categories="{{categories}}"></elmsln-category-data>
 
     <!--
-      shop-cart-data maintains the state of the user's shopping cart (in localstorage) and
+      elmsln-cart-data maintains the state of the user's elmslnping cart (in localstorage) and
       calculates the total amount.
     -->
-    <shop-cart-data
+    <elmsln-cart-data
         id="cart"
         cart="{{cart}}"
         num-items="{{numItems}}"
-        total="{{total}}"></shop-cart-data>
+        total="{{total}}"></elmsln-cart-data>
 
     <app-header role="navigation" id="header" effects="waterfall" condenses reveals>
       <app-toolbar>
@@ -263,10 +263,10 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
             <paper-icon-button icon="arrow-back" aria-label="Go back"></paper-icon-button>
           </a>
         </div>
-        <div class="logo" main-title><a href="/" aria-label="SHOP Home">ELMS:LN HOME</a></div>
+        <div class="logo" main-title><a href="/" aria-label="elmsln Home">ELMS:LN HOME</a></div>
         <div class="cart-btn-container">
           <a href="/cart" tabindex="-1">
-            <paper-icon-button icon="shopping-cart" aria-label$="Shopping cart: [[_computePluralizedQuantity(numItems)]]"></paper-icon-button>
+            <paper-icon-button icon="elmslnping-cart" aria-label$="elmslnping cart: [[_computePluralizedQuantity(numItems)]]"></paper-icon-button>
           </a>
           <div class="cart-badge" aria-hidden="true" hidden$="[[!numItems]]">[[numItems]]</div>
         </div>
@@ -275,15 +275,15 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       <!-- Lazy-create the tabs for larger screen sizes. -->
       <div id="tabContainer" sticky$="[[_shouldShowTabs]]" hidden$="[[!_shouldShowTabs]]">
         <template is="dom-if" if="[[_shouldRenderTabs]]">
-          <shop-tabs
+          <elmsln-tabs
               selected="[[categoryName]]"
               attr-for-selected="name">
             <template is="dom-repeat" items="[[categories]]" as="category" initial-count="4">
-              <shop-tab name="[[category.name]]">
+              <elmsln-tab name="[[category.name]]">
                 <a href="/list/[[category.name]]">[[category.title]]</a>
-              </shop-tab>
+              </elmsln-tab>
             </template>
-          </shop-tabs>
+          </elmsln-tabs>
         </template>
       </div>
     </app-header>
@@ -302,20 +302,21 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
     <iron-pages role="main" selected="[[page]]" attr-for-selected="name" selected-attribute="visible" fallback-selection="404">
       <!-- home view -->
-      <shop-home name="home" categories="[[categories]]"></shop-home>
+      <elmsln-home name="home" categories="[[categories]]"></elmsln-home>
       <!-- list view of items in a category -->
-      <shop-list name="list" route="[[subroute]]" offline="[[offline]]"></shop-list>
+      <elmsln-list name="list" route="[[subroute]]" offline="[[offline]]"></elmsln-list>
       <!-- detail view of one item -->
-      <shop-detail name="detail" route="[[subroute]]" offline="[[offline]]"></shop-detail>
+      <elmsln-detail name="detail" route="[[subroute]]" offline="[[offline]]"></elmsln-detail>
       <!-- cart view -->
-      <shop-cart name="cart" cart="[[cart]]" total="[[total]]"></shop-cart>
+      <elmsln-cart name="cart" cart="[[cart]]" total="[[total]]"></elmsln-cart>
       <!-- checkout view -->
-      <shop-checkout name="checkout" cart="[[cart]]" total="[[total]]" route="{{subroute}}"></shop-checkout>
+      <elmsln-checkout name="checkout" cart="[[cart]]" total="[[total]]" route="{{subroute}}"></elmsln-checkout>
 
-      <shop-404-warning name="404"></shop-404-warning>
+      <elmsln-404-warning name="404"></elmsln-404-warning>
     </iron-pages>
 
     <footer>
+      <script src="https://opencollective.com/elmsln/banner.js"></script>
       <a href="https://www.polymer-project.org/1.0/toolbox/">Made by Polymer</a>
       <div class="demo-label">Demo Only</div>
     </footer>
@@ -328,11 +329,11 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
   <script>
 
     // performance logging
-    window.performance && performance.mark && performance.mark('shop-app - before register');
+    window.performance && performance.mark && performance.mark('elmsln-app - before register');
 
     Polymer({
 
-      is: 'shop-app',
+      is: 'elmsln-app',
 
       properties: {
 
@@ -375,7 +376,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       },
 
       created: function() {
-        window.performance && performance.mark && performance.mark('shop-app.created');
+        window.performance && performance.mark && performance.mark('elmsln-app.created');
         // Custom elements polyfill safe way to indicate an element has been upgraded.
         this.removeAttribute('unresolved');
       },
@@ -410,7 +411,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
             // eagerly load the 404 page definition
             var cb = this._pageLoaded.bind(this, Boolean(oldPage));
             this.importHref(
-              this.resolveUrl('shop-' + page + '.html'),
+              this.resolveUrl('elmsln-' + page + '.html'),
               cb, cb, true);
           }
         }
@@ -450,7 +451,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         // or if the network status changed.
         if (this.offline || (!this.offline && oldOffline === true)) {
           if (!this._networkSnackbar) {
-            this._networkSnackbar = document.createElement('shop-snackbar');
+            this._networkSnackbar = document.createElement('elmsln-snackbar');
             Polymer.dom(this.root).appendChild(this._networkSnackbar);
           }
           Polymer.dom(this._networkSnackbar).innerHTML = this.offline ?
@@ -482,14 +483,14 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
         // Announce the page's title
         if (detail.title) {
-          document.title = detail.title + ' - SHOP';
+          document.title = detail.title + ' - elmsln';
           this._announce(detail.title + ', loaded');
         }
       },
 
       _onAddCartItem: function(event) {
         if (!this._cartModal) {
-          this._cartModal = document.createElement('shop-cart-modal');
+          this._cartModal = document.createElement('elmsln-cart-modal');
           Polymer.dom(this.root).appendChild(this._cartModal);
         }
         this.$.cart.addItem(event.detail);

@@ -1,4 +1,4 @@
-# SHOP
+# elmsln
 
 ### Setup
 
@@ -12,13 +12,13 @@ Install [polymer-cli](https://github.com/Polymer/polymer-cli):
 
 ##### Setup
     # Using CLI
-    mkdir shop
-    cd shop
-    polymer init shop
+    mkdir elmsln
+    cd elmsln
+    polymer init elmsln
     
     # Or cloning direct from GitHub
-    git clone https://github.com/Polymer/shop.git
-    cd shop
+    git clone https://github.com/Polymer/elmsln.git
+    cd elmsln
     bower install
 
 ### Start the development server
