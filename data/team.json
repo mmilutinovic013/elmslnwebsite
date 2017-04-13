@@ -4,72 +4,72 @@
     "title":"Bryan Ollendyke",
     "category":"team",
     "price":50.20,
-    "description":"A versatile full-zip that you can wear all day long and even to the gym. This technical shell features moisture-wicking fabric, added stretch and a hidden pocket for your smartphone or media player.&amp;nbsp;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Features:&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;100% polyester.&lt;/li&gt;&lt;li&gt;Smooth, technical front with textured mesh back.&lt;/li&gt;&lt;li&gt;Drawstring bottom for adjustable fit.&lt;/li&gt;&lt;li&gt;Raglan sleeves.&lt;/li&gt;&lt;li&gt;Available in forest green with the white Google logo embroidered at left chest.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;",
-    "image":"/data/images/10-15068B.jpg",
-    "largeImage":"/data/images/10-15068A.jpg"
+    "description":"Bryan is the project lead of ELMS Learning Network. Bryan is a graduate of the Pennsylvania State University College of Information, Sciences & Technology with a B.S. (2006) and M.S. (2015). His Master's Thesis of Information Altruism highlights that through donation of information technology we are able to change institutions. He has been contributing to Drupal based systems since 2007 and is a tireless advocate for the transformative nature of open source communities. Bryan is a leading voice in the Drupal in Education community and has helped Penn State adopt and grow a vibrant Drupal community. Presenting at dozens of Education and Drupal conferences alike, Bryan travels with his message that open source can, does, and will transform our institutions and our world. The world needs more dreamers, bring dreams to life with us!",
+    "image":"/data/images/team/btopro.jpg",
+    "largeImage":"/data/images/team/btopro.jpg"
   },
   {
-    "name":"Anvil+L+S+Crew+Neck+-+Grey",
-    "title":"Anvil L/S Crew Neck - Grey",
+    "name":"Michael+Potter",
+    "title":"Michael Potter",
     "category":"team",
     "price":22.15,
     "description":"You'll be swooning over this crew neck as soon as you feel how soft it is.&amp;nbsp;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Features:&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;40% preshrunk ring-spun cotton, 60% polyester terry fleece.&amp;nbsp;&lt;/li&gt;&lt;li&gt;Available in dark heather charcoal with the white Google logo screen printed across center chest.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;",
-    "image":"/data/images/10-14154B.jpg",
-    "largeImage":"/data/images/10-14154A.jpg"
+    "image":"/data/images/team/heymp.jpg",
+    "largeImage":"/data/images/team/heymp.jpg"
   },
   {
-    "name":"Green+Flex+Fleece+Zip+Hoodie",
-    "title":"Green Flex Fleece Zip Hoodie",
+    "name":"Michael+Collins",
+    "title":"Michael Collins",
     "category":"team",
     "price":45.65,
     "description":"Ultra soft. Ultra cozy. Our popular flex fleece hoodie now available in speckled green.&amp;nbsp;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Features:&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;50% cotton / 50% polyester.&amp;nbsp;&lt;/li&gt;&lt;li&gt;Made in the USA.&amp;nbsp;&lt;/li&gt;&lt;li&gt;Full-zip.&amp;nbsp;&lt;/li&gt;&lt;li&gt;Available in green with specks of blue and the white Google logo embroidered at left bicep.&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;",
-    "image":"/data/images/10-14157B.jpg",
-    "largeImage":"/data/images/10-14157A.jpg"
+    "image":"/data/images/team/michael_collins.png",
+    "largeImage":"/data/images/team/michael_collins.png"
   },
-  {
-    "name":"Android+Nylon+Packable+Jacket",
-    "title":"Android Nylon Packable Jacket",
-    "category":"team",
-    "price":33.60,
-    "description":"Pack. Pack. Pack it up! This nylon jacket with reflective trim can literally be packed into itself in seconds. Features a waterproof nylon fabric, Android eyes &amp;amp; antennaes on the hood and a  carrying strap when jacket is fully packed. Android robot is printed on back above zipper in a reflective, metallic finish.",
-    "image":"/data/images/10-15041B.jpg",
-    "largeImage":"/data/images/10-15041A.jpg"
-  },
-  {
-    "name":"YouTube+Ultimate+Hooded+Sweatshirt",
-    "title":"YouTube Ultimate Hooded Sweatshirt",
+    {
+    "name":"Katrina+Wehr",
+    "title":"Katrina Wehr",
     "category":"team",
     "price":32.35,
     "description":"Stay warm in this cozy hoodie made of 50% cotton and 50% polyester. This comfortable design features set in sleeves, dyed to match draw cord and a front pouch pocket. Available in Charcoal with the full color YouTube logo screen printed across the chest. Unisex sizing.",
-    "image":"/data/images/10-14133B.jpg",
-    "largeImage":"/data/images/10-14133A.jpg"
+    "image":"/data/images/team/katrina_wehr.jpg",
+    "largeImage":"/data/images/team/katrina_wehr.jpg"
   },
   {
-    "name":"Grey+Heather+Fleece+Zip+Hoodie",
-    "title":"Grey Heather Fleece Zip Hoodie",
-    "category":"mens_outerwear",
+    "name":"Mark+Milutinovic",
+    "title":"Mark Milutinovic",
+    "category":"team",
+    "price":33.60,
+    "description":"Pack. Pack. Pack it up! This nylon jacket with reflective trim can literally be packed into itself in seconds. Features a waterproof nylon fabric, Android eyes &amp;amp; antennaes on the hood and a  carrying strap when jacket is fully packed. Android robot is printed on back above zipper in a reflective, metallic finish.",
+    "image":"/data/images/team/mmilutinovic1313.jpg",
+    "largeImage":"/data/images/team/mmilutinovic1313.jpg"
+  },
+  {
+    "name":"Patrick+OConnor",
+    "title":"Patrick O'Connor",
+    "category":"team",
     "price":38.85,
     "description":"Cozy up with this full-zip hoodie.&amp;nbsp;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Features:&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;60% combed, ring-spun cotton, 40% polyester.&lt;/li&gt;&lt;li&gt;Unisex sizing.&lt;/li&gt;&lt;li&gt;Retail fit.&lt;/li&gt;&lt;li&gt;Contrast zipper.&lt;/li&gt;&lt;li&gt;Kangaroo pockets with ribbed cuffs and waistband.&lt;/li&gt;&lt;li&gt;Available in dark heather with the white Google logo embroidered at left chest.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;",
-    "image":"/data/images/10-14160B.jpg",
-    "largeImage":"/data/images/10-14160A.jpg"
+    "image":"/data/images/team/proconnor.jpg",
+    "largeImage":"/data/images/team/proconnor.jpg"
   },
   {
-    "name":"Vastrm+Hoodie",
-    "title":"Vastrm Hoodie",
-    "category":"mens_outerwear",
+    "name":"Melissa+Hicks",
+    "title":"Melissa Hicks",
+    "category":"team",
     "price":200.00,
     "description":"The ultimate in fit and fabric, this Vastrm hoodie doesn't disappoint. Made from soft pique fabric, the lightweight full-zip features a halfmoon accent and matching hoodie strings.&amp;nbsp;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Additional Features:&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;100% cotton.&lt;/li&gt;&lt;li&gt;Hidden phone pocket neatly cradles your digital device.&amp;nbsp;&lt;/li&gt;&lt;li&gt;Available in charcoal grey with red strings and hood. White Google logo is embroidered at left bicep.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;",
-    "image":"/data/images/10-14153B.jpg",
-    "largeImage":"/data/images/10-14153A.jpg"
+    "image":"/data/images/team/melissa.jpg",
+    "largeImage":"/data/images/team/melissa.jpg"
   },
   {
-    "name":"Recycled+Plastic+Bottle+Hoodie+-+Green",
-    "title":"Recycled Plastic Bottle Hoodie - Green",
-    "category":"mens_outerwear",
+    "name":"Rick+Humphries",
+    "title":"Rick Humphries",
+    "category":"team",
     "price":60.95,
     "description":"Ever wonder where all of the disposable water bottles of the world end up? We know some of them are reused for a second purpose. Each of these hoodies contain approximately 9 recycled water bottles that are woven into the fabric.&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Features:&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;50% recycled cotton, 50% recycled polyester.&lt;/li&gt;&lt;li&gt;Full zipper and orange drawstring pulls.&lt;/li&gt;&lt;li&gt;USA made.&amp;nbsp;&lt;/li&gt;&lt;li&gt;&amp;nbsp;Available in forest green with the white Google logo embroidered at left bicep.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;",
-    "image":"/data/images/10-14158B.jpg",
-    "largeImage":"/data/images/10-14158A.jpg"
+    "image":"/data/images/team/rick.png",
+    "largeImage":"/data/images/team/rick.png"
   },
   {
     "name":"Rowan+Pullover+Hood",
