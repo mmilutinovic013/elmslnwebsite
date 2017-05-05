@@ -67,61 +67,61 @@
     "title":"Rick Humphries",
     "category":"team",
     "price":60.95,
-    "description":"Ever wonder where all of the disposable water bottles of the world end up? We know some of them are reused for a second purpose. Each of these hoodies contain approximately 9 recycled water bottles that are woven into the fabric.&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Features:&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;50% recycled cotton, 50% recycled polyester.&lt;/li&gt;&lt;li&gt;Full zipper and orange drawstring pulls.&lt;/li&gt;&lt;li&gt;USA made.&amp;nbsp;&lt;/li&gt;&lt;li&gt;&amp;nbsp;Available in forest green with the white Google logo embroidered at left bicep.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;",
+    "description":"Rick is the Head of Digital Strategy at Buttercups Training, a UK-based training provider for pharmacy qualifications. Having graduated from The University of Nottingham with something that said he was OKish at Biochemistry, and recognising how terrible the course lecture experience was, Rick set about studying for a Postgraduate Diploma in Online and Distance Education so he could try to find a better way. The result was a decade long struggle to learn coding languages, design software, web technologies, data analysis and research techniques from scratch in an attempt to design course experiences that took into account emerging <strike>pedagogigoies</strike> education theories for online learning. Already a supporter of open source, in 2014 he stumbled across ELMS:LN and instantly resonated with the flexibility and potential of not only being able to build the course content, but also the learning tools themselves. He now uses ELMS:LN to power the learning experience of over 50,000 students and regularly contributes thoughts, ideas and bug reports to the issue queue while the rest of the ELMS:LN team are sleeping. He does this whilst drinking tea, eating crumpets and watching football (the proper sport), obviously.",
     "image":"/data/images/team/rick.png",
     "largeImage":"/data/images/team/rick.png"
   },
   {
-    "name":"Rowan+Pullover+Hood",
-    "title":"Rowan Pullover Hood",
-    "category":"mens_outerwear",
+    "name":"Brad+Fisher",
+    "title":"Brad Fisher",
+    "category":"team",
     "price":60.85,
-    "description":"In search of the perfect layering piece? This lightweight, triblend pullover is ultra soft and ideal for all seasons.&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Features:&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;50% polyester, 38% cotton, 12% rayon triblend.&lt;/li&gt;&lt;li&gt;Available in black with the white Google logo screenprinted at left bicep.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;",
-    "image":"/data/images/10-14152B.jpg",
-    "largeImage":"/data/images/10-14152A.jpg"
+    "description":"Brad is a solutions architect, a Drupal site builder and backend developer. With a healthy knowledge of 'ground-up' application deployment and system infrastructure, Brad likes to give projects a good home. At Penn State Brad works as a programmer/analyst, specializing in Drupal and Server automation.",
+    "image":"/data/images/team/bradallenfisher.jpg",
+    "largeImage":"/data/images/team/bradallenfisher.jpg"
   },
   {
-    "name":"Men+s+Voyage+Fleece+Jacket",
-    "title":"Men's Voyage Fleece Jacket",
-    "category":"mens_outerwear",
+    "name":"Kate+Camplese",
+    "title":"Kate Camplese",
+    "category":"team",
     "price":48.00,
-    "description":"&lt;div&gt;Perhaps the equivalent to that comfort blanket you had years ago is a cozy fleece. This full-zip is the perfect layering piece for those 'in-between' months when mother nature just can't make up her mind.&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Features:&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;100% polyester anti-pill yarn fleece.&lt;/li&gt;&lt;li&gt;100% polyester taffeta lining in sleeves.&lt;/li&gt;&lt;li&gt;Tricot-lined lower pockets with reverse coil zippers.&lt;/li&gt;&lt;li&gt;Available in black with the white Google logo embroidered at left chest.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;",
-    "image":"/data/images/10-14155B.jpg",
-    "largeImage":"/data/images/10-14155A.jpg"
+    "description":"Kitt Camplese has served as a Senior Instructional Designer in the eLearning Design and Innovation Group (eLDIG) within Smeal College of Business, at The Pennsylvania State University since 2007. Kitt has been with Penn State University since 2003 and during this time she has established herself as an innovative learning designer, often working on many interesting and engaging courses. In her current role, she provides support to her team, manages the team’s course portfolio, and works with faculty to design and develop online and blended courses. Kitt believes learning that is designed using pedagogic theories and best practices, along with integrated technologies to enhance learning, delivered in the appropriate learning environment fosters engagement and collaboration, which results in improved student outcomes.",
+    "image":"/data/images/team/kate_camplese.jpg",
+    "largeImage":"/data/images/team/kate_camplese.jpg"
   },
   {
-    "name":"Eco-Jersey+Chrome+Zip+Up+Hoodie",
-    "title":"Eco-Jersey Chrome Zip Up Hoodie",
-    "category":"mens_outerwear",
+    "name":"Matt+Mooney",
+    "title":"Matt Mooney",
+    "category":"team",
     "price":37.75,
-    "description":"An exceptionally soft, eco-friendly full-zip for picture-perfect layering.&amp;nbsp;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Features:&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;50% polyester, 38% cotton (6.25% recycled), 12% rayon (6.25% organic).&lt;/li&gt;&lt;li&gt;Low-impact yarn dyed and washed.&lt;/li&gt;&lt;li&gt;Brushed nickel zipper with natural taping.&lt;/li&gt;&lt;li&gt;Split front pouch pocket.&amp;nbsp;&lt;/li&gt;&lt;li&gt;Available in deep pacific blue with the white Google Chrome logo screenprinted at left chest.&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;",
-    "image":"/data/images/10-14159B.jpg",
-    "largeImage":"/data/images/10-14159A.jpg"
+    "description":"Matt is the Director of Instructional Design for the Smeal College of Business at Penn State University. Prior to that, I was a faculty member/Assistant Professor of Educational Technology or Web and Interactive Media. He is a hard-core Mac user/evangilist, an experienced interactive media creator, author, occasional musician, and an award-winning college instructor. He has a Ph.D. in Curriculum and Instruction with a focus in Educational Technology from Purdue University, and an M.A. in Interpersonal Communication and a B.A.A. in Organizational Communication and Human Sexuality from Central Michigan University. Matt has had an interesting career path that has included private consulting, university administration, training, and his real love which is teaching in the college classroom.",
+    "image":"/data/images/team/mooney.jpg",
+    "largeImage":"/data/images/team/mooney.jpg"
   },
   {
-    "name":"Android+Colorblock+Hooded+Pullover",
-    "title":"Android Colorblock Hooded Pullover",
-    "category":"mens_outerwear",
+    "name":"Renee+Ford",
+    "title":"Renee Ford",
+    "category":"team",
     "price":50.20,
-    "description":"This cozy Android hoodie features a sublimated camo design printed inside hood and along inner sleeves and side panels.  Moisture-wicking polyester fabric keeps you cool and dry.&amp;nbsp;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Features:&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;100% polyester.&lt;/li&gt;&lt;li&gt;Ultra soft, fleece interior.&amp;nbsp;&lt;/li&gt;&lt;li&gt;Available in smoke/lime green with the white Android robot embroidered at left chest.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;",
-    "image":"/data/images/10-14146B.jpg",
-    "largeImage":"/data/images/10-14146A.jpg"
+    "description":"Renee Ford joined Penn State’s Smeal College of Business in 2012 and has worked as an instructional designer and instructor at Penn State since 2007. She has a background in education, human resource development, and organization development and is passionate about design, innovation, and educational equity. Renee believes that teaching and learning experiences, when designed well, provide opportunities for students and instructors to participate in excellent, engaging learning experiences that meet the needs of diverse learners.",
+    "image":"/data/images/team/rjf227.jpg",
+    "largeImage":"/data/images/team/rjf227.jpg"
   },
   {
-    "name":"Tri-blend+Full-Zip+Hoodie",
-    "title":"Tri-blend Full-Zip Hoodie",
-    "category":"mens_outerwear",
+    "name":"Cody+Goddard",
+    "title":"Cody Goddard",
+    "category":"team",
     "price":52.20,
-    "description":"Comfy cool. This canvas tri-blend full-zip hoodie made of a poly/cotton/rayon blend is sure to please the eyes as well as the senses. Made in the USA. Available in Black with the white Google logo embroidered at left chest.",
-    "image":"/data/images/10-14216B.jpg",
-    "largeImage":"/data/images/10-14216A.jpg"
+    "description":"Cody works for the College of Arts & Architecture as an arts and education multimedia developer. His broad background in the arts and focused skills in still photography and videography allow him to communicate clearly and with intention. He has worked as a collaborator on a number of major art installations and projects, and works with faculty to develop courses for the eLearning Institute at Penn State.",
+    "image":"/data/images/team/cody_goddard.jpg",
+    "largeImage":"/data/images/team/cody_goddard.jpg"
   },
   {
     "name":"Fleece+Full-Zip+Hoodie",
     "title":"Fleece Full-Zip Hoodie",
     "category":"mens_outerwear",
     "price":45.65,
-    "description":"If you find that the 'spark' is missing from your outfit, you may need to add one of these full-zip hoodies to the mix. Resurfacing from 1989, this colorful full-zip features a sporty fit with ultra soft fleece lining.&lt;div&gt;&lt;br&gt;&lt;div&gt;Additional Features:&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;50% polyester and 50% cotton fleece.&amp;nbsp;&lt;/li&gt;&lt;li&gt;Available in blue with the Google logo embroidered in white at left bicep.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;",
+    "description":"Rick is the Head of Digital Strategy at Buttercups Training, a UK-based training provider for pharmacy qualifications. Having graduated from The University of Nottingham with something that said he was OKish at Biochemistry, and recognising how terrible the course lecture experience was, Rick set about studying for a Postgraduate Diploma in Online and Distance Education so he could try to find a better way. The result was a decade long struggle to learn coding languages, design software, web technologies, data analysis and research techniques from scratch in an attempt to design course experiences that took into account emerging <strike>pedagogigoies</strike> education theories for online learning. Already a supporter of open source, in 2014 he stumbled across ELMS:LN and instantly resonated with the flexibility and potential of not only being able to build the course content, but also the learning tools themselves. He now uses ELMS:LN to power the learning experience of over 50,000 students and regularly contributes thoughts, ideas and bug reports to the issue queue while the rest of the ELMS:LN team are sleeping. He does this whilst drinking tea, eating crumpets and watching football (the proper sport), obviously.",
     "image":"/data/images/10-14215B.jpg",
     "largeImage":"/data/images/10-14215A.jpg"
   },
