@@ -117,13 +117,13 @@
     "largeImage":"/data/images/team/cody_goddard.jpg"
   },
   {
-    "name":"Fleece+Full-Zip+Hoodie",
-    "title":"Fleece Full-Zip Hoodie",
-    "category":"mens_outerwear",
+    "name":"Charles+Lavera",
+    "title":"Charles Lavera",
+    "category":"team",
     "price":45.65,
-    "description":"Rick is the Head of Digital Strategy at Buttercups Training, a UK-based training provider for pharmacy qualifications. Having graduated from The University of Nottingham with something that said he was OKish at Biochemistry, and recognising how terrible the course lecture experience was, Rick set about studying for a Postgraduate Diploma in Online and Distance Education so he could try to find a better way. The result was a decade long struggle to learn coding languages, design software, web technologies, data analysis and research techniques from scratch in an attempt to design course experiences that took into account emerging <strike>pedagogigoies</strike> education theories for online learning. Already a supporter of open source, in 2014 he stumbled across ELMS:LN and instantly resonated with the flexibility and potential of not only being able to build the course content, but also the learning tools themselves. He now uses ELMS:LN to power the learning experience of over 50,000 students and regularly contributes thoughts, ideas and bug reports to the issue queue while the rest of the ELMS:LN team are sleeping. He does this whilst drinking tea, eating crumpets and watching football (the proper sport), obviously.",
-    "image":"/data/images/10-14215B.jpg",
-    "largeImage":"/data/images/10-14215A.jpg"
+    "description":"Charles Lavera is a Multimedia Specialist / Web Developer with the Office of Digital Learning (ODL) at the Eberly College of Science.  He upholds a broad background in digital-media and web-development with a focus on Drupal-based installations and open-source learning. Outside of the office, Charles is known for being a loving husband, dedicated musician, and a dependable friend.",
+    "image":"/data/images/team/charles_lavera.png",
+    "largeImage":"/data/images/team/charles_lavera.png"
   },
   {
     "name":"Jacquard-Knit+Full-Zip+Fleece",
