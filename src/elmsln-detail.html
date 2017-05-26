@@ -11,7 +11,6 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 <link rel="import" href="../bower_components/polymer/polymer.html">
 <link rel="import" href="../bower_components/app-route/app-route.html">
 <link rel="import" href="../bower_components/iron-flex-layout/iron-flex-layout.html">
-<link rel="import" href="../bower_components/iron-image/iron-image.html">
 <link rel="import" href="elmsln-button.html">
 <link rel="import" href="elmsln-category-data.html">
 <link rel="import" href="elmsln-common-styles.html">
@@ -33,7 +32,36 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         @apply(--layout-center-justified);
       }
 
-      iron-image {
+      .hero-image {
+        position: relative;
+        height: 320px;
+        overflow: hidden;
+        margin-bottom: 32px;
+      }
+
+      .hero-image {
+        --elmsln-image-img: {
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: -9999px;
+          right: -9999px;
+          max-width: none;
+        };
+      }
+      @media (max-width: 767px) {
+        .hero-image {
+          display: none;
+        }
+
+        .grid  li {
+          -webkit-flex-basis: 50%;
+          flex-basis: 50%;
+          max-width: 50%;
+        }
+      }
+
+      elmsln-image {
         position: relative;
         margin: 64px 32px;
         width: 50%;
@@ -43,7 +71,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         };
       }
 
-      iron-image::before {
+      elmsln-image::before {
         content: "";
         display: block;
         padding-top: 100%;
@@ -149,13 +177,15 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         item-name="[[routeData.item]]"
         item="{{item}}"
         failure="{{failure}}"></elmsln-category-data>
+    <elmsln-image src="[[item.largeImage]]" alt="[[item.title]]" id="img" class="hero-image" style="background-image: url('data:image/jpeg;base64,/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAAAAP/sABFEdWNreQABAAQAAAAeAAD/7gAOQWRvYmUAZMAAAAAB/9sAhAAQCwsLDAsQDAwQFw8NDxcbFBAQFBsfFxcXFxcfHhcaGhoaFx4eIyUnJSMeLy8zMy8vQEBAQEBAQEBAQEBAQEBAAREPDxETERUSEhUUERQRFBoUFhYUGiYaGhwaGiYwIx4eHh4jMCsuJycnLis1NTAwNTVAQD9AQEBAQEBAQEBAQED/wAARCAADAA4DASIAAhEBAxEB/8QAWwABAQEAAAAAAAAAAAAAAAAAAAMEAQEAAAAAAAAAAAAAAAAAAAAAEAABAwEJAAAAAAAAAAAAAAARAAESEyFhodEygjMUBREAAwAAAAAAAAAAAAAAAAAAAEFC/9oADAMBAAIRAxEAPwDb7kupZU1MTGnvOCgxpvzEXTyRElCmf//Z');"></elmsln-image>
 
     <div id="content" hidden$="[[failure]]">
       <!--<elmsln-image alt="[[item.title]]" src="[[item.largeImage]]"></elmsln-image> -->
-      <iron-image src="[[item.largeImage]]" alt="[[item.title]]" sizing="cover"  placeholder-img="[[category.placeholder]]"></iron-image>
+      <elmsln-image src="[[item.largeImage]]" alt="[[item.title]]" sizing="cover" class="hero-image"></elmsln-image>
       
       <div class="detail" has-content$="[[_isDefined(item)]]">
         <h1>[[item.title]]</h1>
+        <h3>[[item.subtitle]]</h3>
         <div class="description">
           <h2>Description</h2>
           <p id="desc"></p>
