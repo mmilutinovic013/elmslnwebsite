@@ -102,6 +102,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       <h1>[[category.title]]</h1>
       <span>[[_getPluralizedQuantity(category.items.length)]]</span>
     </header>
+    <span>[[category.summary]]</span>
 
     <ul class="grid" hidden$="[[failure]]">
       <template is="dom-repeat" items="[[_getListItems(category.items)]]" initial-count="4">
