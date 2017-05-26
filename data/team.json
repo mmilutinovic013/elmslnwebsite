@@ -3,7 +3,6 @@
     "name":"Bryan+Ollendyke",
     "title":"Bryan Ollendyke",
     "category":"team",
-    "price":50.20,
     "description":"<p>Bryan is the project lead of ELMS Learning Network. Bryan is a graduate of the Pennsylvania State University College of Information, Sciences & Technology with a B.S. (2006) and M.S. (2015). His Master's Thesis of Information Altruism highlights that through donation of information technology we are able to change institutions. He has been contributing to Drupal based systems since 2007 and is a tireless advocate for the transformative nature of open source communities. Bryan is a leading voice in the Drupal in Education community and has helped Penn State adopt and grow a vibrant Drupal community. Presenting at dozens of Education and Drupal conferences alike, Bryan travels with his message that open source can, does, and will transform our institutions and our world.</p><p>The world needs more dreamers, bring dreams to life with us!</p>",
     "image":"/data/images/team/btopro.jpg",
     "largeImage":"/data/images/team/btopro.jpg"
@@ -12,7 +11,6 @@
     "name":"Michael+Potter",
     "title":"Michael Potter",
     "category":"team",
-    "price":22.15,
     "description":"Michael Potter is affectionately known as the second most famous Michael Potter in Drupal. What he lacks in neutrino particle physics knowledge he makes up for in crafting sustainable, responsive front-end systems and Drupal websites using the latest techniques and tools. Before coming to Penn State, Michael worked for multiple startups where he used and abused Drupal to quickly prototype ideas and solve technological problems for businesses.  As an educational technologist, he brings that same passion of solving problems with technology to online learning. Michael is also a core developer for the open-source Drupal platform, ELMS Learning Network.",
     "image":"/data/images/team/heymp.jpg",
     "largeImage":"/data/images/team/heymp.jpg"
@@ -21,7 +19,6 @@
     "name":"Michael+Collins",
     "title":"Michael Collins",
     "category":"team",
-    "price":45.65,
     "description":"<p>I came to Penn State with the intention of studying mechanical engineering for four years and leaving. I can’t be more happy that I accomplished none of those things. I’ve been working with online learning technology for about a decade. I started teaching digital media art when I was in graduate school, and during that time discovered that I have a knack for crashing 3D software during in-class demos. Save early, save iteratively, save often.</p><p>I prefer to work with people who don’t take “...but this doesn’t exist!” for an answer. Educational Technologist is a vague job title, but essentially it means that I’m passionate about using design and technology to push education forward in a sustainable way. More specifically, I maintain, design, and build online learning infrastructure. Right now we are running on a massive open-source project called ELMS Learning Network. One project that I’m really excited about right now is called HAX, an intuitive drag and drop content authoring interface for Drupal that will one day replace Drupal’s WYSIWYG.</p><p>My Spotify playlist is typically hard at work making sure my brain is happy while I’m working through design or code problems. When I’m not working, you can find me... wait, no, you can’t find me because I’m riding on some singletrack with no cell reception. That or I’m traveling to give a talk or volunteer at a nerdy tech conference like SIGGRAPH or DrupalCon.</p>",
     "image":"/data/images/team/michael_collins.png",
     "largeImage":"/data/images/team/michael_collins.png"
@@ -30,7 +27,6 @@
     "name":"Katrina+Wehr",
     "title":"Katrina Wehr",
     "category":"team",
-    "price":32.35,
     "description":"<p>Katrina Wehr is an instructional designer at Penn State’s Smeal College of Business. Katrina graduated from Penn State with a B.S. in secondary education and earned her M.Ed. in instructional design and technology from Kutztown University. She’s interested in helping students and instructors make use of data to improve how concepts are taught, studied and mastered. She prioritizes instructional integrity over technology, and she’s working to promote this mindset among others in the educational technology community.</p><p>Katrina took the scenic route to becoming an instructional designer, first working as a journalist, then as a high school English teacher. She got her start as a freelance designer for private companies and K-12 education institutions, and then moved on to Drexel University before returning to Penn State in 2015. Katrina looks forward to extinguishing traditional models of postsecondary education in favor of guiding students and educators toward new paradigms focused on individuals and their unique educational goals and motivations. Ultimately, she is focused on improving educational opportunities for all in the hope that educated citizens in turn focus on improving the world.</p>",
     "image":"/data/images/team/katrina_wehr.jpg",
     "largeImage":"/data/images/team/katrina_wehr.jpg"
@@ -39,7 +35,6 @@
     "name":"Mark+Milutinovic",
     "title":"Mark Milutinovic",
     "category":"team",
-    "price":33.60,
     "description":"Mark Milutinovic is a ELMS:LN developer who recieved undergraduate degrees from Penn State University in Information Sciences and Technology (IST) and German Language. Mark enjoys playing with automative technologies and flying drones in his free time. He is also an avid baseball player and fan -- and enjoys watching the Mets and Red Sox on TV. Mark will be leaving Penn State in June of 2017, but will continue to advocate the ELMS:LN wherever he goes to spread the word of this noble cause.",
     "image":"/data/images/team/mmilutinovic1313.jpg",
     "largeImage":"/data/images/team/mmilutinovic1313.jpg"
@@ -48,7 +43,6 @@
     "name":"Patrick+OConnor",
     "title":"Patrick O'Connor",
     "category":"team",
-    "price":38.85,
     "description":"<p>Patrick O’Connor is a student developer sponsored by the Penn State College of Arts and Architecture’s e-Learning Institute.</p><p>Patrick plans on majoring in Computer Science.</p>",
     "image":"/data/images/team/proconnor.jpg",
     "largeImage":"/data/images/team/proconnor.jpg"
@@ -57,7 +51,6 @@
     "name":"Melissa+Hicks",
     "title":"Melissa Hicks",
     "category":"team",
-    "price":200.00,
     "description":"<p>Melissa got into this business because she hated chewing wood. She started out wanting to be an optometrist, but after a run-in with Garth Brooks, she decided she wanted to be a secondary ed teacher. That quickly got derailed by life, and instead, she became the president of a home-building company, a writer-editor, only to arrive where she is at today--basically back where she started--at the Eberly College of Science.</p><p>Melissa is currently the Team Lead and Instructional Designer for the Office of Digital Learning at the Eberly College of Science. When she's not coordinating her college's online course portfolio or running from meeting to meeting, you can catch her on the baseball field managing the Lemont Ducks or on Twitter, tweeting about ELMSLN.</p>",
     "image":"/data/images/team/melissa.jpg",
     "largeImage":"/data/images/team/melissa.jpg"
@@ -66,7 +59,6 @@
     "name":"Rick+Humphries",
     "title":"Rick Humphries",
     "category":"team",
-    "price":60.95,
     "description":"Rick is the Head of Digital Strategy at Buttercups Training, a UK-based training provider for pharmacy qualifications. Having graduated from The University of Nottingham with something that said he was OKish at Biochemistry, and recognising how terrible the course lecture experience was, Rick set about studying for a Postgraduate Diploma in Online and Distance Education so he could try to find a better way. The result was a decade long struggle to learn coding languages, design software, web technologies, data analysis and research techniques from scratch in an attempt to design course experiences that took into account emerging <strike>pedagogigoies</strike> education theories for online learning. Already a supporter of open source, in 2014 he stumbled across ELMS:LN and instantly resonated with the flexibility and potential of not only being able to build the course content, but also the learning tools themselves. He now uses ELMS:LN to power the learning experience of over 50,000 students and regularly contributes thoughts, ideas and bug reports to the issue queue while the rest of the ELMS:LN team are sleeping. He does this whilst drinking tea, eating crumpets and watching football (the proper sport), obviously.",
     "image":"/data/images/team/rick.png",
     "largeImage":"/data/images/team/rick.png"
@@ -75,7 +67,6 @@
     "name":"Brad+Fisher",
     "title":"Brad Fisher",
     "category":"team",
-    "price":60.85,
     "description":"Brad is a solutions architect, a Drupal site builder and backend developer. With a healthy knowledge of 'ground-up' application deployment and system infrastructure, Brad likes to give projects a good home. At Penn State Brad works as a programmer/analyst, specializing in Drupal and Server automation.",
     "image":"/data/images/team/bradallenfisher.jpg",
     "largeImage":"/data/images/team/bradallenfisher.jpg"
@@ -84,7 +75,6 @@
     "name":"Kate+Camplese",
     "title":"Kate Camplese",
     "category":"team",
-    "price":48.00,
     "description":"Kitt Camplese has served as a Senior Instructional Designer in the eLearning Design and Innovation Group (eLDIG) within Smeal College of Business, at The Pennsylvania State University since 2007. Kitt has been with Penn State University since 2003 and during this time she has established herself as an innovative learning designer, often working on many interesting and engaging courses. In her current role, she provides support to her team, manages the team’s course portfolio, and works with faculty to design and develop online and blended courses. Kitt believes learning that is designed using pedagogic theories and best practices, along with integrated technologies to enhance learning, delivered in the appropriate learning environment fosters engagement and collaboration, which results in improved student outcomes.",
     "image":"/data/images/team/kate_camplese.jpg",
     "largeImage":"/data/images/team/kate_camplese.jpg"
@@ -93,7 +83,6 @@
     "name":"Matt+Mooney",
     "title":"Matt Mooney",
     "category":"team",
-    "price":37.75,
     "description":"Matt is the Director of Instructional Design for the Smeal College of Business at Penn State University. Prior to that, I was a faculty member/Assistant Professor of Educational Technology or Web and Interactive Media. He is a hard-core Mac user/evangilist, an experienced interactive media creator, author, occasional musician, and an award-winning college instructor. He has a Ph.D. in Curriculum and Instruction with a focus in Educational Technology from Purdue University, and an M.A. in Interpersonal Communication and a B.A.A. in Organizational Communication and Human Sexuality from Central Michigan University. Matt has had an interesting career path that has included private consulting, university administration, training, and his real love which is teaching in the college classroom.",
     "image":"/data/images/team/mooney.jpg",
     "largeImage":"/data/images/team/mooney.jpg"
@@ -102,7 +91,6 @@
     "name":"Renee+Ford",
     "title":"Renee Ford",
     "category":"team",
-    "price":50.20,
     "description":"Renee Ford joined Penn State’s Smeal College of Business in 2012 and has worked as an instructional designer and instructor at Penn State since 2007. She has a background in education, human resource development, and organization development and is passionate about design, innovation, and educational equity. Renee believes that teaching and learning experiences, when designed well, provide opportunities for students and instructors to participate in excellent, engaging learning experiences that meet the needs of diverse learners.",
     "image":"/data/images/team/rjf227.jpg",
     "largeImage":"/data/images/team/rjf227.jpg"
@@ -111,7 +99,6 @@
     "name":"Cody+Goddard",
     "title":"Cody Goddard",
     "category":"team",
-    "price":52.20,
     "description":"Cody works for the College of Arts & Architecture as an arts and education multimedia developer. His broad background in the arts and focused skills in still photography and videography allow him to communicate clearly and with intention. He has worked as a collaborator on a number of major art installations and projects, and works with faculty to develop courses for the eLearning Institute at Penn State.",
     "image":"/data/images/team/cody_goddard.jpg",
     "largeImage":"/data/images/team/cody_goddard.jpg"
@@ -120,7 +107,6 @@
     "name":"Charles+Lavera",
     "title":"Charles Lavera",
     "category":"team",
-    "price":45.65,
     "description":"Charles Lavera is a Multimedia Specialist / Web Developer with the Office of Digital Learning (ODL) at the Eberly College of Science.  He upholds a broad background in digital-media and web-development with a focus on Drupal-based installations and open-source learning. Outside of the office, Charles is known for being a loving husband, dedicated musician, and a dependable friend.",
     "image":"/data/images/team/charles_lavera.png",
     "largeImage":"/data/images/team/charles_lavera.png"
@@ -129,7 +115,6 @@
     "name":"Jacquard-Knit+Full-Zip+Fleece",
     "title":"Jacquard-Knit Full-Zip Fleece",
     "category":"mens_outerwear",
-    "price":74.90,
     "description":"We love color contrast, especially in Google Blue! This textured jacket features a jacquard texture with contrast stitching and zippers.&amp;nbsp;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Additional Features:&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;100% polyester.&amp;nbsp;&lt;/li&gt;&lt;li&gt;Audio port access available on inside left pocket.&lt;/li&gt;&lt;li&gt;Available in Carbon/Olympic Blue with the Google logo embroidered in white on left chest.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;",
     "image":"/data/images/10-14217B.jpg",
     "largeImage":"/data/images/10-14217A.jpg"
@@ -138,7 +123,6 @@
     "name":"YouTube+Unisex+Flex+Fleece+Zip+Hoodie",
     "title":"YouTube Unisex Flex Fleece Zip Hoodie",
     "category":"mens_outerwear",
-    "price":45.25,
     "description":"Our popular flex fleece hoodie, now for YouTube fans everywhere.&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Features:&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;50% polyester, 50% cotton fleece.&lt;/li&gt;&lt;li&gt;Sporty, unisex fit.&lt;/li&gt;&lt;li&gt;Metal zipper.&lt;/li&gt;&lt;li&gt;Hood.&lt;/li&gt;&lt;li&gt;Available in dark heather grey with the YouTube logo embroidered at left bicep.&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;",
     "image":"/data/images/10-15103B.jpg",
     "largeImage":"/data/images/10-15103A.jpg"

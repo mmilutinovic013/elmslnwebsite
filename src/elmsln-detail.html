@@ -11,6 +11,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 <link rel="import" href="../bower_components/polymer/polymer.html">
 <link rel="import" href="../bower_components/app-route/app-route.html">
 <link rel="import" href="../bower_components/iron-flex-layout/iron-flex-layout.html">
+<link rel="import" href="../bower_components/iron-image/iron-image.html">
 <link rel="import" href="elmsln-button.html">
 <link rel="import" href="elmsln-category-data.html">
 <link rel="import" href="elmsln-common-styles.html">
@@ -32,7 +33,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         @apply(--layout-center-justified);
       }
 
-      elmsln-image {
+      iron-image {
         position: relative;
         margin: 64px 32px;
         width: 50%;
@@ -42,7 +43,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         };
       }
 
-      elmsln-image::before {
+      iron-image::before {
         content: "";
         display: block;
         padding-top: 100%;
@@ -150,7 +151,9 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         failure="{{failure}}"></elmsln-category-data>
 
     <div id="content" hidden$="[[failure]]">
-      <elmsln-image alt="[[item.title]]" src="[[item.largeImage]]"></elmsln-image>
+      <!--<elmsln-image alt="[[item.title]]" src="[[item.largeImage]]"></elmsln-image> -->
+      <iron-image src="[[item.largeImage]]" alt="[[item.title]]" sizing="cover"  placeholder-img="[[category.placeholder]]"></iron-image>
+      
       <div class="detail" has-content$="[[_isDefined(item)]]">
         <h1>[[item.title]]</h1>
         <div class="description">
