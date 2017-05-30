@@ -308,10 +308,9 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       <!-- detail view of one item -->
       <elmsln-detail name="detail" route="[[subroute]]" offline="[[offline]]"></elmsln-detail>
       <!--<elmsln-blog-detail name="detail" route="[[subroute]]" offline="[[offline]]"></elmsln-blog-detail>-->
-      <!-- cart view -->
-      <elmsln-cart name="cart" cart="[[cart]]" total="[[total]]"></elmsln-cart>
-      <!-- checkout view -->
-      <elmsln-checkout name="checkout" cart="[[cart]]" total="[[total]]" route="{{subroute}}"></elmsln-checkout>
+      <elmsln-features name="features" route="[[subroute]]" offline="[[offline]]"></elmsln-detail>
+      <elmsln-about name="about" route="[[subroute]]" offline="[[offline]]"></elmsln-detail>
+      <elmsln-download name="download" route="[[subroute]]" offline="[[offline]]"></elmsln-detail>
 
       <elmsln-404-warning name="404"></elmsln-404-warning>
     </iron-pages>

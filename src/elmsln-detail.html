@@ -27,11 +27,6 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         display: block;
       }
 
-      #content {
-        @apply(--layout-horizontal);
-        @apply(--layout-center-justified);
-      }
-
       .hero-image {
         position: relative;
         height: 320px;
@@ -63,12 +58,11 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
       elmsln-image {
         position: relative;
-        margin: 64px 32px;
-        width: 50%;
-        max-width: 600px;
-        --elmsln-image-img: {
-          @apply(--layout-fit);
-        };
+        height: 320px;
+        overflow: hidden;
+        margin-bottom: 32px;
+        margin: 0 calc(-50vw + 50%);
+        width: auto;
       }
 
       elmsln-image::before {
@@ -103,11 +97,9 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       }
 
       .description {
-        margin: 32px 0;
       }
 
       .description > h2 {
-        margin: 16px 0;
         font-size: 13px;
       }
 
@@ -117,7 +109,6 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       }
 
       .pickers {
-        @apply(--layout-vertical);
         border-top: 1px solid #ccc;
       }
 
@@ -128,22 +119,8 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
       @media (max-width: 767px) {
 
-        #content {
-          @apply(--layout-vertical);
-          @apply(--layout-center);
-        }
-
         elmsln-image {
           margin: 0;
-          width: 80%;
-        }
-
-        .detail {
-          box-sizing: border-box;
-          margin: 32px 0;
-          padding: 0 24px;
-          width: 100%;
-          max-width: 600px;
         }
 
         h1 {
@@ -151,11 +128,20 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
           line-height: 24px;
         }
 
-        .price {
-          font-size: inherit;
-          margin: 12px 0 32px;
-        }
+        .centered-profile {
+          display: inline-block;
 
+        }
+        .wrapper {
+          text-align: center;
+        }
+      }
+
+      .detail___content {
+        max-width: 60rem;
+        margin: 0 auto;
+        padding: 1rem;
+        padding: 5vmin;
       }
 
     </style>
@@ -177,23 +163,23 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         item-name="[[routeData.item]]"
         item="{{item}}"
         failure="{{failure}}"></elmsln-category-data>
-    <elmsln-image src="[[item.largeImage]]" alt="[[item.title]]" id="img" class="hero-image" style="background-image: url('data:image/jpeg;base64,/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAAAAP/sABFEdWNreQABAAQAAAAeAAD/7gAOQWRvYmUAZMAAAAAB/9sAhAAQCwsLDAsQDAwQFw8NDxcbFBAQFBsfFxcXFxcfHhcaGhoaFx4eIyUnJSMeLy8zMy8vQEBAQEBAQEBAQEBAQEBAAREPDxETERUSEhUUERQRFBoUFhYUGiYaGhwaGiYwIx4eHh4jMCsuJycnLis1NTAwNTVAQD9AQEBAQEBAQEBAQED/wAARCAADAA4DASIAAhEBAxEB/8QAWwABAQEAAAAAAAAAAAAAAAAAAAMEAQEAAAAAAAAAAAAAAAAAAAAAEAABAwEJAAAAAAAAAAAAAAARAAESEyFhodEygjMUBREAAwAAAAAAAAAAAAAAAAAAAEFC/9oADAMBAAIRAxEAPwDb7kupZU1MTGnvOCgxpvzEXTyRElCmf//Z');"></elmsln-image>
 
     <div id="content" hidden$="[[failure]]">
-      <!--<elmsln-image alt="[[item.title]]" src="[[item.largeImage]]"></elmsln-image> -->
-      <elmsln-image src="[[item.largeImage]]" alt="[[item.title]]" sizing="cover" class="hero-image"></elmsln-image>
-      
-      <div class="detail" has-content$="[[_isDefined(item)]]">
-        <h1>[[item.title]]</h1>
-        <h3>[[item.subtitle]]</h3>
-        <div class="description">
-          <h2>Description</h2>
-          <p id="desc"></p>
+      <!--<elmsln-image alt="[[item.title]]" src="[[item.largeImage]]"></elmsln-image> -->      
+      <div id="wrapper" has-content$="[[_isDefined(item)]]">
+        <elmsln-image  class="header-bg" src="[[item.largeImage]]" alt="[[item.title]]" sizing="[[headerSize]]" class="hero-image"></elmsln-image>
+        <div class="detail___content">
+          <h1>[[item.title]]</h1>
+          <h3>[[item.subtitle]]</h3>
+          <div class="description">
+            <h2>Description</h2>
+            <p id="desc"></p>
+          </div>
+          <elmsln-button responsive>
+            <!--add some share functionality on-tap-->
+            <button on-tap="_addToCart" aria-label="Share Post">Share Post</button>
+          </elmsln-button>
         </div>
-        <elmsln-button responsive>
-          <!--add some share functionality on-tap-->
-          <button on-tap="_addToCart" aria-label="Share Post">Share Post</button>
-        </elmsln-button>
       </div>
     </div>
 
@@ -229,14 +215,26 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
           observer: '_offlineChanged'
         },
 
-        failure: Boolean
+        failure: Boolean,
+
+        headerSize: {
+          type: 'String',
+          value: 'cover'
+        }
 
       },
-
       observers: [
-        '_itemChanged(item, visible)'
+        '_itemChanged(item, visible)',
+        '_routeChanged(route)'
       ],
-
+      _routeChanged: function(route) {
+        if (route.path.startsWith('/blog/')) {
+          this.headerSize = 'cover';
+        }
+        if (route.path.startsWith('/team/')) {
+          this.headerSize = 'contain';
+        }
+      },
       _itemChanged: function(item, visible) {
         if (visible) {
           this.debounce('item-change', function() {
