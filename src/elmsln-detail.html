@@ -140,6 +140,16 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         padding: 1rem;
         padding: 5vmin;
       }
+      .sub_header {
+        text-align: center;
+        display: inline;
+      }
+      h3 {
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 500;
+
+      }
 
     </style>
 
@@ -166,13 +176,16 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       <div id="wrapper" has-content$="[[_isDefined(item)]]">
         <elmsln-image  class="header-bg" src="[[item.largeImage]]" alt="[[item.title]]" sizing="[[headerSize]]" class="hero-image"></elmsln-image>
         <div class="detail___content">
-          <h1>[[item.title]]</h1>
-          <h3>[[item.subtitle]]</h3>
+          <div class="sub_header">
+            <h1>[[item.title]]</h1>
+            <h3>[[item.unit]]</h3>
+            <h3>[[item.position]]</h3>
+          </div>
           <div class="description">
-            <h2>Description</h2>
+            <!--This is where the unescaped HTML will live-->
             <p id="desc"></p>
           </div>
-          <elmsln-button responsive>
+          <elmsln-button responsive class="share_button">
             <!--add some share functionality on-tap-->
             <button on-tap="" aria-label="Share Post">Share Post</button>
           </elmsln-button>
