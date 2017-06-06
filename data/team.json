@@ -11,7 +11,7 @@
     "name":"Michael+Potter",
     "title":"Michael Potter",
     "category":"team",
-    "description":"Michael Potter is affectionately known as the second most famous Michael Potter in Drupal. What he lacks in neutrino particle physics knowledge he makes up for in crafting sustainable, responsive front-end systems and Drupal websites using the latest techniques and tools. Before coming to Penn State, Michael worked for multiple startups where he used and abused Drupal to quickly prototype ideas and solve technological problems for businesses.  As an educational technologist, he brings that same passion of solving problems with technology to online learning. Michael is also a core developer for the open-source Drupal platform, ELMS Learning Network.",
+    "description":"<p>Michael Potter is affectionately known as the second most famous Michael Potter in Drupal. What he lacks in neutrino particle physics knowledge he makes up for in crafting sustainable, responsive front-end systems and Drupal websites using the latest techniques and tools. Before coming to Penn State, Michael worked for multiple startups where he used and abused Drupal to quickly prototype ideas and solve technological problems for businesses.  As an educational technologist, he brings that same passion of solving problems with technology to online learning. Michael is also a core developer for the open-source Drupal platform, ELMS Learning Network.</p>",
     "image":"/data/images/team/heymp.jpg",
     "largeImage":"/data/images/team/heymp.jpg"
   },
@@ -35,7 +35,7 @@
     "name":"Mark+Milutinovic",
     "title":"Mark Milutinovic",
     "category":"team",
-    "description":"Mark Milutinovic is a ELMS:LN developer who recieved undergraduate degrees from Penn State University in Information Sciences and Technology (IST) and German Language. Mark enjoys playing with automative technologies and flying drones in his free time. He is also an avid baseball player and fan -- and enjoys watching the Mets and Red Sox on TV. Mark will be leaving Penn State in June of 2017, but will continue to advocate the ELMS:LN wherever he goes to spread the word of this noble cause.",
+    "description":"<p>Mark Milutinovic is a ELMS:LN developer who recieved undergraduate degrees from Penn State University in Information Sciences and Technology (IST) and German Language. Mark enjoys playing with automative technologies and flying drones in his free time. He is also an avid baseball player and fan -- and enjoys watching the Mets and Red Sox on TV. Mark will be leaving Penn State in June of 2017, but will continue to advocate the ELMS:LN wherever he goes to spread the word of this noble cause.</p>",
     "image":"/data/images/team/mmilutinovic1313.jpg",
     "largeImage":"/data/images/team/mmilutinovic1313.jpg"
   },
@@ -59,7 +59,7 @@
     "name":"Rick+Humphries",
     "title":"Rick Humphries",
     "category":"team",
-    "description":"Rick is the Head of Digital Strategy at Buttercups Training, a UK-based training provider for pharmacy qualifications. Having graduated from The University of Nottingham with something that said he was OKish at Biochemistry, and recognising how terrible the course lecture experience was, Rick set about studying for a Postgraduate Diploma in Online and Distance Education so he could try to find a better way. The result was a decade long struggle to learn coding languages, design software, web technologies, data analysis and research techniques from scratch in an attempt to design course experiences that took into account emerging <strike>pedagogigoies</strike> education theories for online learning. Already a supporter of open source, in 2014 he stumbled across ELMS:LN and instantly resonated with the flexibility and potential of not only being able to build the course content, but also the learning tools themselves. He now uses ELMS:LN to power the learning experience of over 50,000 students and regularly contributes thoughts, ideas and bug reports to the issue queue while the rest of the ELMS:LN team are sleeping. He does this whilst drinking tea, eating crumpets and watching football (the proper sport), obviously.",
+    "description":"<p>Rick is the Head of Digital Strategy at Buttercups Training, a UK-based training provider for pharmacy qualifications. Having graduated from The University of Nottingham with something that said he was OKish at Biochemistry, and recognising how terrible the course lecture experience was, Rick set about studying for a Postgraduate Diploma in Online and Distance Education so he could try to find a better way. The result was a decade long struggle to learn coding languages, design software, web technologies, data analysis and research techniques from scratch in an attempt to design course experiences that took into account emerging <strike>pedagogigoies</strike> education theories for online learning. Already a supporter of open source, in 2014 he stumbled across ELMS:LN and instantly resonated with the flexibility and potential of not only being able to build the course content, but also the learning tools themselves. He now uses ELMS:LN to power the learning experience of over 50,000 students and regularly contributes thoughts, ideas and bug reports to the issue queue while the rest of the ELMS:LN team are sleeping. He does this whilst drinking tea, eating crumpets and watching football (the proper sport), obviously.</p>",
     "image":"/data/images/team/rick.png",
     "largeImage":"/data/images/team/rick.png"
   },
@@ -67,7 +67,7 @@
     "name":"Brad+Fisher",
     "title":"Brad Fisher",
     "category":"team",
-    "description":"Brad is a solutions architect, a Drupal site builder and backend developer. With a healthy knowledge of 'ground-up' application deployment and system infrastructure, Brad likes to give projects a good home. At Penn State Brad works as a programmer/analyst, specializing in Drupal and Server automation.",
+    "description":"<p>Brad is a solutions architect, a Drupal site builder and backend developer. With a healthy knowledge of 'ground-up' application deployment and system infrastructure, Brad likes to give projects a good home. At Penn State Brad works as a programmer/analyst, specializing in Drupal and Server automation.<p>",
     "image":"/data/images/team/bradallenfisher.jpg",
     "largeImage":"/data/images/team/bradallenfisher.jpg"
   },
@@ -75,7 +75,7 @@
     "name":"Kate+Camplese",
     "title":"Kate Camplese",
     "category":"team",
-    "description":"Kitt Camplese has served as a Senior Instructional Designer in the eLearning Design and Innovation Group (eLDIG) within Smeal College of Business, at The Pennsylvania State University since 2007. Kitt has been with Penn State University since 2003 and during this time she has established herself as an innovative learning designer, often working on many interesting and engaging courses. In her current role, she provides support to her team, manages the team’s course portfolio, and works with faculty to design and develop online and blended courses. Kitt believes learning that is designed using pedagogic theories and best practices, along with integrated technologies to enhance learning, delivered in the appropriate learning environment fosters engagement and collaboration, which results in improved student outcomes.",
+    "description":"<p>Kitt Camplese has served as a Senior Instructional Designer in the eLearning Design and Innovation Group (eLDIG) within Smeal College of Business, at The Pennsylvania State University since 2007. Kitt has been with Penn State University since 2003 and during this time she has established herself as an innovative learning designer, often working on many interesting and engaging courses. In her current role, she provides support to her team, manages the team’s course portfolio, and works with faculty to design and develop online and blended courses. Kitt believes learning that is designed using pedagogic theories and best practices, along with integrated technologies to enhance learning, delivered in the appropriate learning environment fosters engagement and collaboration, which results in improved student outcomes.</p>",
     "image":"/data/images/team/kate_camplese.jpg",
     "largeImage":"/data/images/team/kate_camplese.jpg"
   },
@@ -83,7 +83,7 @@
     "name":"Matt+Mooney",
     "title":"Matt Mooney",
     "category":"team",
-    "description":"Matt is the Director of Instructional Design for the Smeal College of Business at Penn State University. Prior to that, I was a faculty member/Assistant Professor of Educational Technology or Web and Interactive Media. He is a hard-core Mac user/evangilist, an experienced interactive media creator, author, occasional musician, and an award-winning college instructor. He has a Ph.D. in Curriculum and Instruction with a focus in Educational Technology from Purdue University, and an M.A. in Interpersonal Communication and a B.A.A. in Organizational Communication and Human Sexuality from Central Michigan University. Matt has had an interesting career path that has included private consulting, university administration, training, and his real love which is teaching in the college classroom.",
+    "description":"<p>Matt is the Director of Instructional Design for the Smeal College of Business at Penn State University. Prior to that, I was a faculty member/Assistant Professor of Educational Technology or Web and Interactive Media. He is a hard-core Mac user/evangilist, an experienced interactive media creator, author, occasional musician, and an award-winning college instructor. He has a Ph.D. in Curriculum and Instruction with a focus in Educational Technology from Purdue University, and an M.A. in Interpersonal Communication and a B.A.A. in Organizational Communication and Human Sexuality from Central Michigan University. Matt has had an interesting career path that has included private consulting, university administration, training, and his real love which is teaching in the college classroom.</p>",
     "image":"/data/images/team/mooney.jpg",
     "largeImage":"/data/images/team/mooney.jpg"
   },
@@ -91,7 +91,7 @@
     "name":"Renee+Ford",
     "title":"Renee Ford",
     "category":"team",
-    "description":"Renee Ford joined Penn State’s Smeal College of Business in 2012 and has worked as an instructional designer and instructor at Penn State since 2007. She has a background in education, human resource development, and organization development and is passionate about design, innovation, and educational equity. Renee believes that teaching and learning experiences, when designed well, provide opportunities for students and instructors to participate in excellent, engaging learning experiences that meet the needs of diverse learners.",
+    "description":"<p>Renee Ford joined Penn State’s Smeal College of Business in 2012 and has worked as an instructional designer and instructor at Penn State since 2007. She has a background in education, human resource development, and organization development and is passionate about design, innovation, and educational equity. Renee believes that teaching and learning experiences, when designed well, provide opportunities for students and instructors to participate in excellent, engaging learning experiences that meet the needs of diverse learners.</p>",
     "image":"/data/images/team/rjf227.jpg",
     "largeImage":"/data/images/team/rjf227.jpg"
   },
@@ -99,7 +99,7 @@
     "name":"Cody+Goddard",
     "title":"Cody Goddard",
     "category":"team",
-    "description":"Cody works for the College of Arts & Architecture as an arts and education multimedia developer. His broad background in the arts and focused skills in still photography and videography allow him to communicate clearly and with intention. He has worked as a collaborator on a number of major art installations and projects, and works with faculty to develop courses for the eLearning Institute at Penn State.",
+    "description":"<p>Cody works for the College of Arts & Architecture as an arts and education multimedia developer. His broad background in the arts and focused skills in still photography and videography allow him to communicate clearly and with intention. He has worked as a collaborator on a number of major art installations and projects, and works with faculty to develop courses for the eLearning Institute at Penn State.</p>",
     "image":"/data/images/team/cody_goddard.jpg",
     "largeImage":"/data/images/team/cody_goddard.jpg"
   },
@@ -107,7 +107,7 @@
     "name":"Charles+Lavera",
     "title":"Charles Lavera",
     "category":"team",
-    "description":"Charles Lavera is a Multimedia Specialist / Web Developer with the Office of Digital Learning (ODL) at the Eberly College of Science.  He upholds a broad background in digital-media and web-development with a focus on Drupal-based installations and open-source learning. Outside of the office, Charles is known for being a loving husband, dedicated musician, and a dependable friend.",
+    "description":"<p>Charles Lavera is a Multimedia Specialist / Web Developer with the Office of Digital Learning (ODL) at the Eberly College of Science.  He upholds a broad background in digital-media and web-development with a focus on Drupal-based installations and open-source learning. Outside of the office, Charles is known for being a loving husband, dedicated musician, and a dependable friend.</p>",
     "image":"/data/images/team/charles_lavera.png",
     "largeImage":"/data/images/team/charles_lavera.png"
   }
