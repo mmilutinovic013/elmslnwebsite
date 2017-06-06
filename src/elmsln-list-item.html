@@ -54,8 +54,6 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
     <elmsln-image src="[[item.image]]" alt="[[item.title]]"></elmsln-image>
     <div class="title">[[item.title]]</div>
-    <span class="price">[[_formatPrice(item.price)]]</span>
-
   </template>
 
   <script>
@@ -69,10 +67,6 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         item: Object
 
       },
-
-      _formatPrice: function(price) {
-        return price ? '$' + price.toFixed(2) : '';
-      }
 
     });
 

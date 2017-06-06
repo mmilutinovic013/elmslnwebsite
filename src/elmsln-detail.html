@@ -174,7 +174,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
           </div>
           <elmsln-button responsive>
             <!--add some share functionality on-tap-->
-            <button on-tap="_addToCart" aria-label="Share Post">Share Post</button>
+            <button on-tap="" aria-label="Share Post">Share Post</button>
           </elmsln-button>
         </div>
       </div>
@@ -221,7 +221,6 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
       },
       observers: [
-        '_itemChanged(item, visible)',
         '_routeChanged(route)'
       ],
       _routeChanged: function(route) {
@@ -232,43 +231,11 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
           this.headerSize = 'contain';
         }
       },
-      _itemChanged: function(item, visible) {
-        if (visible) {
-          this.debounce('item-change', function() {
-            // The item description contains escaped HTML (e.g. "&lt;br&gt;"), so we need to
-            // unescape it ("<br>") and set it as innerHTML.
-            var text = item ? item.description : '';
-            this.$.desc.innerHTML = this._unescapeText(text);
-
-            // Reset the select menus.
-            this.$.quantitySelect.value = '1';
-            this.$.sizeSelect.value = 'M';
-
-            this.fire('change-section', {
-              category: item.category,
-              title: item.title
-            });
-          });
-        }
-      },
 
       _unescapeText: function(text) {
         var elem = document.createElement('textarea');
         elem.innerHTML = text;
         return elem.textContent;
-      },
-
-      _formatPrice: function(price) {
-        return price ? '$' + price.toFixed(2) : '';
-      },
-
-      _addToCart: function() {
-        // This event will be handled by elmsln-app.
-        this.fire('add-cart-item', {
-          item: this.item,
-          quantity: parseInt(this.$.quantitySelect.value, 10),
-          size: this.$.sizeSelect.value
-        });
       },
 
       _isDefined: function(item) {
