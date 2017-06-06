@@ -221,6 +221,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
       },
       observers: [
+        '_itemChanged(item, visible)',
         '_routeChanged(route)'
       ],
       _routeChanged: function(route) {
@@ -229,6 +230,21 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         }
         if (route.path.startsWith('/team/')) {
           this.headerSize = 'contain';
+        }
+      },
+      _itemChanged: function(item, visible) {
+        if (visible) {
+          this.debounce('item-change', function() {
+            // The item description contains escaped HTML (e.g. "&lt;br&gt;"), so we need to
+            // unescape it ("<br>") and set it as innerHTML.
+            var text = item ? item.description : '';
+            this.$.desc.innerHTML = this._unescapeText(text);
+
+            this.fire('change-section', {
+              category: item.category,
+              title: item.title
+            });
+          });
         }
       },
 
