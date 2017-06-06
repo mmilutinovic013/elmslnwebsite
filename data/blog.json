@@ -1,5 +1,31 @@
 [
   {
+    "name":"No+One+Should+Own+the+Ocean",
+    "title":"No One Should Own the Ocean",
+    "subtitle": "gridplate",
+    "authors": ["Bryan Ollendyke"],
+    "date": "June 1, 2017",
+    "category":"blog",
+    "tags":["edtech","ngdle", "webcomponents"],
+    "videos": ["https://youtu.be/Gh3Y7FjIomA"],
+    "description":"<p>This is a recording of a talk I&#39;m giving at OpenApereo2017 entitled &quot;No one should own the ocean&quot; in which I describe the difference between NGDLE and LMS technology perspectives, review some options and thoughts in the space currently, and then start to show our entry into this space. From there, I go into why I think Web Components will be the way to solve cognitive load issues that can arrise from switching contexts (aka tools / websites) in an NGDLE without just tunneling UX into an LMS type environment via LTI.</p><p>This is not an anti-LTI argument, it&#39;s envisioning another way out of the walled gardens we so decry (LMS) and opening up the entire web as a distributed learning ecosystem in a way that doesn&#39;t overwhelm our end users but empowers them to select applications based on their needs and developers to build effortlessly against the web as a platform itself.</p>",
+    "image":"/data/images/blog/island.jpg",
+    "largeImage":"/data/images/blog/island.jpg"
+  },
+  {
+    "name":"BCCampus+ELMSLN+EdTech+Demo",
+    "title":"BCCampus ELMS:LN EdTech Demo",
+    "subtitle": "demo",
+    "authors": ["Bryan Ollendyke"],
+    "date": "May 5, 2017",
+    "category":"blog",
+    "tags":["webinar"],
+    "videos": [],
+    "description":"<p>There was a webinar lead by<span style=\"font-size: 13px;\">&nbsp;Clint Lalonde,&nbsp;Manager, Education Technology for BC Campus in Canada. You can check out the webinar and ELMS:LN as of February here:&nbsp;</span><a href=\"https://edtech.bccampus.ca/2017/02/09/elmsln-edtech-demo/\">https://edtech.bccampus.ca/2017/02/09/elmsln-edtech-demo/</a></p>",
+    "image":"/data/images/blog/blank.jpg",
+    "largeImage":"/data/images/blog/blank.jpg"
+  },
+  {
     "name":"LRN+-+The+Future+of+Design+in+Educational+Technology",
     "title":"LRN - The Future of Design in Educational Technology",
     "subtitle": "<lrn><lrndesign><lrnsys><oer><hax>",
