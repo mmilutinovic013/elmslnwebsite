@@ -184,6 +184,10 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
           <div class="description">
             <!--This is where the unescaped HTML will live-->
             <p id="desc"></p>
+            <google-youtube video-id="Gh3Y7FjIomA"></google-youtube>
+          </div>
+          <div id="video">
+            <google-youtube video-id="Gh3Y7FjIomA"></google-youtube>
           </div>
           <elmsln-button responsive class="share_button">
             <!--add some share functionality on-tap-->
@@ -265,6 +269,19 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         var elem = document.createElement('textarea');
         elem.innerHTML = text;
         return elem.textContent;
+      },
+
+      _checkVideoProvider: function(url) {
+        var provider = "none"
+        if(url !== null) {
+          if(url.startsWith("https://youtu")) {
+            provider = "youtube";
+          }
+          else if (condition) {
+            provider = "vimeo";
+          }
+        }
+        return provider;
       },
 
       _isDefined: function(item) {
