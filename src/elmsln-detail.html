@@ -11,6 +11,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 <link rel="import" href="../bower_components/polymer/polymer.html">
 <link rel="import" href="../bower_components/app-route/app-route.html">
 <link rel="import" href="../bower_components/iron-flex-layout/iron-flex-layout.html">
+<link rel="import" href="../bower_components/google-youtube/google-youtube.html"
 <link rel="import" href="elmsln-button.html">
 <link rel="import" href="elmsln-category-data.html">
 <link rel="import" href="elmsln-common-styles.html">
@@ -184,11 +185,16 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
           <div class="description">
             <!--This is where the unescaped HTML will live-->
             <p id="desc"></p>
-            <google-youtube video-id="Gh3Y7FjIomA"></google-youtube>
-          </div>
-          <div id="video">
-            <google-youtube video-id="Gh3Y7FjIomA"></google-youtube>
-          </div>
+            <google-youtube 
+            video-id="p0j0lO7uQBo"
+            height="270px"
+            width="480px"
+            rel="0"
+            start="5"
+            autoplay="1">
+            ></google-youtube>
+        </div>
+          
           <elmsln-button responsive class="share_button">
             <!--add some share functionality on-tap-->
             <button on-tap="" aria-label="Share Post">Share Post</button>
