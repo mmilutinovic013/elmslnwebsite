@@ -185,14 +185,18 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
           <div class="description">
             <!--This is where the unescaped HTML will live-->
             <p id="desc"></p>
-            <google-youtube 
-            video-id="[[item.url]]"
-            height="270px"
-            width="480px"
-            rel="0"
-            start="5"
-            autoplay="1">
-            ></google-youtube>
+            <template is="dom-repeat" items="{{item.videos}}">
+              <template is="dom-if" if="[[_shouldRenderYoutube]]">
+                <google-youtube 
+                video-id="[[item]]"
+                height="270px"
+                width="480px"
+                rel="0"
+                start="5"
+                autoplay="1">
+                ></google-youtube>
+              </template>
+            </template>
         </div>
           
           <elmsln-button responsive class="share_button">
@@ -294,6 +298,16 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
           }
         }
         return returnID;
+      },
+
+      _shouldRenderYoutube:function(url) {
+        var truth = false;
+        if(url !== null) {
+          if(url.startsWith("https://youtu")) {
+            truth = true;
+          }
+        }
+        return truth;
       },
 
       _isDefined: function(item) {

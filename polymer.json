@@ -5,7 +5,6 @@
     "src/elmsln-list.html",
     "src/elmsln-detail.html",
     "src/elmsln-blog-detail.html",
-    "src/elmsln-cart.html",
     "src/elmsln-checkout.html",
     "src/lazy-resources.html"
   ],
