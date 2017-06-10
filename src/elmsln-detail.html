@@ -186,7 +186,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
             <!--This is where the unescaped HTML will live-->
             <p id="desc"></p>
             <google-youtube 
-            video-id="p0j0lO7uQBo"
+            video-id="[[item.url]]"
             height="270px"
             width="480px"
             rel="0"
@@ -277,17 +277,23 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         return elem.textContent;
       },
 
-      _checkVideoProvider: function(url) {
-        var provider = "none"
+      _returnVideoID: function(url) {
+        var returnID = "none"
         if(url !== null) {
           if(url.startsWith("https://youtu")) {
-            provider = "youtube";
+            var vidYoutube = url.search.split('v=')[1];
+            var ampersandPosition = url.indexOf('&');
+            if(ampersandPosition != -1) {
+              vidYoutube = url.substring(0, ampersandPosition);
+            }
+            returnID = vidYoutube;
           }
           else if (condition) {
-            provider = "vimeo";
+            var vidVimeo = url.split('video/').pop();
+            returnID = vidVimeo;
           }
         }
-        return provider;
+        return returnID;
       },
 
       _isDefined: function(item) {
