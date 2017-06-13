@@ -185,20 +185,19 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
           <div class="description">
             <!--This is where the unescaped HTML will live-->
             <p id="desc"></p>
-            <template is="dom-repeat" items="{{videos}}">
+            <template is="dom-repeat" items="{{_renderYouTube(item.videos)}}">
                 <google-youtube 
                 video-id="[[item]]"
                 height="270px"
                 width="480px"
                 rel="0"
                 start="5"
-                autoplay="1">
+                autoplay="0">
                 ></google-youtube>
+                <!-- TODO: Remove the silly br due to laziness -->
+                </br>
             </template>
-            {{item}}
-            {{item.videos}}
         </div>
-          
           <elmsln-button responsive class="share_button">
             <!--add some share functionality on-tap-->
             <button on-tap="" aria-label="Share Post">Share Post</button>
@@ -228,10 +227,6 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
         item: Object,
 
-        videos: {
-          type: Array
-        },
-
         route: Object,
 
         routeData: Object,
@@ -251,10 +246,27 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         }
 
       },
+
       observers: [
         '_itemChanged(item, visible)',
-        '_routeChanged(route)'
+        '_routeChanged(route)',
+        '_parseJSON(data)'
       ],
+
+      _renderYouTube: function(obj) {
+            return Object.keys(obj).map(function(key) {
+                if(obj[key].search("https://youtu.be/") != -1) {
+                  var vidStartIndex = obj[key].replace(/https:\/\/youtu.be\//i, "");
+                }
+                return vidStartIndex;
+            });
+        },
+      _parseJSON:function() {
+        $.get('data/data.json', function(data) {
+            this.videos = $.parseJSON(data).results;
+            console.log(this.videos);
+          }.bind(this));
+      },
       _routeChanged: function(route) {
         if (route.path.startsWith('/blog/')) {
           this.headerSize = 'cover';
