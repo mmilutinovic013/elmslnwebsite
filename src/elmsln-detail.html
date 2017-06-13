@@ -185,7 +185,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
           <div class="description">
             <!--This is where the unescaped HTML will live-->
             <p id="desc"></p>
-            <template is="dom-repeat" items="{{_renderYouTube(item.videos)}}">
+            <template is="dom-repeat" items="{{_renderVideo(item.videos)}}">
                 <google-youtube 
                 video-id="[[item]]"
                 height="270px"
@@ -250,23 +250,21 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       observers: [
         '_itemChanged(item, visible)',
         '_routeChanged(route)',
-        '_parseJSON(data)'
       ],
 
-      _renderYouTube: function(obj) {
+      _renderVideo: function(obj) {
             return Object.keys(obj).map(function(key) {
+              // Set the vid default to obj[key] so we can debug if needed.
+              var vid = obj[key];
                 if(obj[key].search("https://youtu.be/") != -1) {
-                  var vidStartIndex = obj[key].replace(/https:\/\/youtu.be\//i, "");
+                  var vid = obj[key].replace(/https:\/\/youtu.be\//i, "");
                 }
-                return vidStartIndex;
+                else if(obj[key].search("https://player.vimeo.com/video/") != -1) {
+                  var vid = obj[key].replace(/https:\/\/player.vimeo.com\/video\//i, "");
+                }
+                return vid;
             });
         },
-      _parseJSON:function() {
-        $.get('data/data.json', function(data) {
-            this.videos = $.parseJSON(data).results;
-            console.log(this.videos);
-          }.bind(this));
-      },
       _routeChanged: function(route) {
         if (route.path.startsWith('/blog/')) {
           this.headerSize = 'cover';
@@ -295,35 +293,6 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         var elem = document.createElement('textarea');
         elem.innerHTML = text;
         return elem.textContent;
-      },
-
-      _returnVideoID: function(url) {
-        var returnID = "none"
-        if(url !== null) {
-          if(url.startsWith("https://youtu")) {
-            var vidYoutube = url.search.split('v=')[1];
-            var ampersandPosition = url.indexOf('&');
-            if(ampersandPosition != -1) {
-              vidYoutube = url.substring(0, ampersandPosition);
-            }
-            returnID = vidYoutube;
-          }
-          else if (condition) {
-            var vidVimeo = url.split('video/').pop();
-            returnID = vidVimeo;
-          }
-        }
-        return returnID;
-      },
-
-      _shouldRenderYoutube:function(url) {
-        var truth = false;
-        if(url !== null) {
-          if(url.startsWith("https://youtu")) {
-            truth = true;
-          }
-        }
-        return truth;
       },
 
       _isDefined: function(item) {
