@@ -185,6 +185,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
           <div class="description">
             <!--This is where the unescaped HTML will live-->
             <p id="desc"></p>
+            <!-- Need a dom-if so this doesn't render on pages that don't have video -->
             <template is="dom-repeat" items="{{_renderVideo(item.videos)}}">
                 <google-youtube 
                 video-id="[[item]]"
