@@ -186,7 +186,8 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
             <!--This is where the unescaped HTML will live-->
             <p id="desc"></p>
             <!-- Need a dom-if so this doesn't render on pages that don't have video -->
-            <template is="dom-if" if="{{_isDefined(item.videos)}}"
+            <template is="dom-if" if="![[_isEmpty(item.videos)]]">
+            <div id="saveMe">
               <template is="dom-repeat" items="{{_renderVideo(item.videos)}}">
                   <google-youtube 
                   video-id="[[item]]"
@@ -199,6 +200,8 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
                   <!-- TODO: Remove the silly br due to laziness -->
                   </br>
               </template>
+              </div>               
+              <!--Polymer doesn't like it when I don't surround embedded templates with a div...-->
             </template>
         </div>
           <elmsln-button responsive class="share_button">
@@ -253,9 +256,11 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       observers: [
         '_itemChanged(item, visible)',
         '_routeChanged(route)',
-      ],
+        '_renderVideo(key)',
 
+      ],
       _renderVideo: function(obj) {
+        if(obj != null) {
             return Object.keys(obj).map(function(key) {
               // Set the vid default to obj[key] so we can debug if needed.
               var vid = obj[key];
@@ -264,9 +269,10 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
                 }
                 else if(obj[key].search("https://player.vimeo.com/video/") != -1) {
                   var vid = obj[key].replace(/https:\/\/player.vimeo.com\/video\//i, "");
-                }
+                } 
                 return vid;
             });
+          }
         },
       _routeChanged: function(route) {
         if (route.path.startsWith('/blog/')) {
@@ -296,6 +302,15 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         var elem = document.createElement('textarea');
         elem.innerHTML = text;
         return elem.textContent;
+      },
+
+      _isEmpty:function(input) {
+        console.log(input);
+        var isEmpty = false; 
+        if(input != null) {
+          empty = true;
+        }
+        return isEmpty;
       },
 
       _isDefined: function(item) {

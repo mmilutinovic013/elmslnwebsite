@@ -87,8 +87,8 @@
     "tags":["community", "xAPI","0.6.0", "AWS"],
     "videos": ["https://youtu.be/03WdqcZsaKI?list=PLJQupiji7J5eiJU_0bMOufgUoIDYW3jZF"],
     "description":"<p><a href=\"http://drdavefusco.com/installing-elmsln-on-aws-and-configuring-xapi-and-h5p/\">Original Post</a></p><p>We wanted to point out a great post by our newest community member David Fusco. David is a faculty member in the College of Information Sciences &amp; Technology at Penn State and recently got ELMSLN deployed on Amazon, then hooked it up to Learning Locker.</p>",
-    "image":"/data/images/blog/",
-    "largeImage":"/data/images/blog/"
+    "image":"/data/images/blog/blank.jpg",
+    "largeImage":"/data/images/blog/blank.jpg"
   },
   {
     "name":"050+Pumpkin+Released",
