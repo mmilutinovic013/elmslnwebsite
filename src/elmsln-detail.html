@@ -186,8 +186,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
             <!--This is where the unescaped HTML will live-->
             <p id="desc"></p>
             <!-- Need a dom-if so this doesn't render on pages that don't have video -->
-            <template is="dom-if" if="![[_isEmpty(item.videos)]]">
-            <div id="saveMe">
+            <div id="videoContainer">
               <template is="dom-repeat" items="{{_renderVideo(item.videos)}}">
                   <google-youtube 
                   video-id="[[item]]"
@@ -197,12 +196,10 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
                   start="0"
                   autoplay="0">
                   ></google-youtube>
-                  <!-- TODO: Remove the silly br due to laziness -->
+                  <!-- TODO: Eventually remove the silly </br> due to laziness -->
                   </br>
               </template>
-              </div>               
-              <!--Polymer doesn't like it when I don't surround embedded templates with a div...-->
-            </template>
+            </div>               
         </div>
           <elmsln-button responsive class="share_button">
             <!--add some share functionality on-tap-->
@@ -302,15 +299,6 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         var elem = document.createElement('textarea');
         elem.innerHTML = text;
         return elem.textContent;
-      },
-
-      _isEmpty:function(input) {
-        console.log(input);
-        var isEmpty = false; 
-        if(input != null) {
-          empty = true;
-        }
-        return isEmpty;
       },
 
       _isDefined: function(item) {
