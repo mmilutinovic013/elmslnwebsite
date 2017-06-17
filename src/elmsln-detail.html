@@ -204,7 +204,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
                 </template>
                 <!-- check if the video is Vimeo and render -->
                 <template is="dom-if" if="{{item.isVimeo}}">
-                  <vimeo-embed embed="{{item.isVimeo}}"></vimeo-embed>
+                  <vimeo-embed embed$="{{item.vid}}"></vimeo-embed>
                 </template>
               </template>
             </div>               
@@ -264,7 +264,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         '_renderVideo(key)',
 
       ],
-      
+
       _renderVideo: function(obj) {
         if(obj != null) {
           var _isYouTube = false;
@@ -278,6 +278,8 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
                 }
                 else if(obj[key].search("https://player.vimeo.com/video/") != -1) {
                   _vid = obj[key].replace(/https:\/\/player.vimeo.com\/video\//i, "");
+                  //var ham = _vid.toString();
+                  console.log(typeof(_vid));
                   console.log(_vid);
                   _isVimeo = true; 
                 } 
