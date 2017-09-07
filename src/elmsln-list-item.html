@@ -10,6 +10,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
 <link rel="import" href="../bower_components/polymer/polymer.html">
 <link rel="import" href="../bower_components/iron-flex-layout/iron-flex-layout.html">
+<link rel="import" href="../bower_components/profile-vcard/profile-vcard.html">
 
 
 <dom-module id="elmsln-list-item">
@@ -54,6 +55,8 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
     <elmsln-image src="[[item.image]]" alt="[[item.title]]"></elmsln-image>
     <div class="title">[[item.title]]</div>
+    <profile-vcard name="Oscar Cortez" image="http://via.placeholder.com/300x300" profession="Full Stack Ninja Developer" description="Write here your cool description" twitter="oscar_mcm" website="oscarmcm.com" place="Managua, Nicaragua"></profile-vcard>
+    
   </template>
 
   <script>
