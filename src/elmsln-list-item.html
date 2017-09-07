@@ -26,6 +26,21 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         margin: 0 48px;
       }
 
+      :host(profile-vcard) {
+        background-color: #ffffff;
+      }
+
+      .card {
+        position: relative;
+        overflow: hidden;
+        margin: 0.5rem 0 1rem 0;
+        background-color: #ffffff;
+        border-radius: 2px;
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+        height: auto;
+        width: auto;
+      }
+
       elmsln-image {
         margin: 32px 0 16px;
       }
@@ -52,11 +67,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       }
 
     </style>
-
-    <elmsln-image src="[[item.image]]" alt="[[item.title]]"></elmsln-image>
-    <div class="title">[[item.title]]</div>
-    <profile-vcard name="Oscar Cortez" image="http://via.placeholder.com/300x300" profession="Full Stack Ninja Developer" description="Write here your cool description" twitter="oscar_mcm" website="oscarmcm.com" place="Managua, Nicaragua"></profile-vcard>
-    
+    <profile-vcard name="[[item.title]]" image="[[item.image]]"  profession="Full Stack Ninja Developer" description="Write here your cool description" twitter="oscar_mcm" website="oscarmcm.com" place="[[item.unit]]"></profile-vcard>
   </template>
 
   <script>
