@@ -1,0 +1,9 @@
+title: Open Ulmus
+author:
+  name: Charles Leverington
+  email: 'charles.leverington@gmail.com'
+metadata:
+    description: Creating an open sharing environment for all
+
+redirects:
+    /internal: '/gravstrap-theme-versatile-internal-template[303]'
